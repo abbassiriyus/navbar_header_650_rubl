@@ -13,12 +13,14 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./image/PROкат.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <div class="toggle_button"><img src="./image/category.png" alt="">
+            
+                <i class='bx bx-x'></i></div>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto">
                    <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text__fond" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Каталог
                 </a>
                 <ul class="dropdown-menu">
@@ -40,16 +42,16 @@
             
             
             </ul>
-            <form class="d-flex" role="search">
-              <a href="">
+            <form class="d-flex navbar__display" role="search">
+            <div class="navbar__contacts">  <a class="navbar__contact" href="#">
                 <i class='bx bxl-telegram'></i>
               </a>
-              <a href="">
+              <a class="navbar__contact" href="#">
                 <i class='bx bxs-envelope' ></i>
-              </a>
-              <a href="" class="text__fond">+7 900 000 00 00</a>
+              </a></div>
+              <a href="#" class="text__fond text__fond__phone" >+7 900 000 00 00</a>
               
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-prokat" type="submit">Заказать звонок</button>
             </form>
           </div>
         </div>
