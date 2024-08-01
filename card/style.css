@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+.title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 39.5px;
+}
+.title h1{
+    font-size: 26.5px;
+    position: relative;
+    left: 85px;
+}
+.map{
+    width: 253px;
+height: 54px;
+border-radius: 25px;
+gap: 10px;
+opacity: 0px;
+background: linear-gradient(135deg, rgba(0, 255, 170, 0.3) 0%, rgba(0, 187, 255, 0.3) 53.09%, rgba(69, 121, 245, 0.3) 100%);
+box-shadow: 0px 8px 8px -4px rgba(0, 187, 255, 0.12);
+
+box-shadow: 0px 0px 1px 0px rgba(0, 187, 255, 0.24);
+display: grid;
+grid-template-columns: 1fr 1fr;
+position: relative;
+left: -35px;
+}
+.map i{
+    width: 18px;
+height: 36px;
+color: rgba(255, 255, 255, 1);
+font-size: 33px;
+position: relative;
+top: 12px;
+left: 25px;
+}
+.map h1{
+    color: white;
+    font-size: 26px;
+    position: relative;
+    top: 12px;
+    left: -30px;
+}
+.kards{
+    width: 100%;
+    max-width: 1340px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    padding-right: 100px;
+    margin-bottom: 40px;
+}
+.kard{
+    background: rgba(250, 250, 250, 1);
+
+    width: 421px;
+    height: 261px;
+    border-radius: 24px;
+    box-shadow: 8px 8px 24px 0px rgba(9, 13, 20, 0.06); 
+
+    box-shadow: -4px -4px 8px 0px rgba(255, 255, 255, 0.4);
+
+    box-shadow: 0px 1px 1px 0px rgba(9, 13, 20, 0.06);
+
+    max-width: 421px;
+    margin: auto;
+    
+
+}
+.kard h2{
+    width: 100%;
+    font-family: Montserrat;
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: left;
+margin-top: 5px;
+margin-left: 8px;
+}
+.kard p{
+    width: 295px;
+    height: 48px;
+    font-family: Montserrat;
+    font-size: 16.4px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    margin-left: 30px;
+    color: gray;
+    margin-top: -1px;
+}
+.kard_title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 21px;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+.kard_icon{
+    width: 29px;
+height: 29px;
+gap: 10px;
+border-radius: 6px;
+background: linear-gradient(135deg, #00FFAA 0%, #00BBFF 53.09%, #4579F5 100%);
+box-shadow: 0px 2px 4px -1px rgba(10, 70, 82, 0.12);
+
+box-shadow: 0px 0px 1px 0px rgba(0, 187, 255, 0.24);
+
+margin-top: 1px;
+}
+.kard_icon i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 1);
+}
+#kard_icons{
+    margin-left: 48px;
+}
+#icon{
+    margin-left: -11px;
+}
+#h2{
+    width: 118%;
+}
+.another_kards_swiper{
+    width: 100%;
+    max-width: 1288px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 26px;
+    padding-right: 100px;
+    height: 330px;
+}
+.kard_swiper{
+    width: 239px;
+    height: 330px;
+gap: 24px;
+border-radius: 16px;
+box-shadow: 8px 8px 24px 0px rgba(9, 13, 20, 0.06);
+
+box-shadow: -4px -4px 8px 0px rgba(255, 255, 255, 0.4);
+
+box-shadow: 0px 1px 1px 0px rgba(9, 13, 20, 0.06);
+background-color: rgba(255, 255, 255, 1);
+}
+.kard_swiper img{
+    width: 100%;
+    margin-top: 14px;
+}
+.another_kard_title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+.another_kard_title h2{
+    font-size: 18.5px;
+    line-height: 26px;
+}
+.another_kard_icon{
+    width: 29px;
+height: 29px;
+gap: 10px;
+border-radius: 6px;
+background: linear-gradient(135deg, #00FFAA 0%, #00BBFF 53.09%, #4579F5 100%);
+box-shadow: 0px 2px 4px -1px rgba(10, 70, 82, 0.12);
+
+box-shadow: 0px 0px 1px 0px rgba(0, 187, 255, 0.24);
+margin-left: 30px;
+margin-top: 10px;
+}
+.another_kard_icon i{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    font-size: 25px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.crds {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crd {
+    width: 100%;
+    height: 600px;
+    background: #000;
+    position: relative;
+}
+
+/* .min_crd {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    background: cyan;
+    transform: rotate(-40deg);
+} */
